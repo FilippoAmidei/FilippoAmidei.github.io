@@ -1,0 +1,199 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+#home-page-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page-header {
+    background: #c33;
+    height: 55px;
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+#logo {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button p {
+    display: block;
+    font-size: .75rem;
+    font-family: "futura-pt", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#home-page-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    top: 80px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+#home-page-top {
+    
+    display: flex;
+    
+}
+
+#columnone, #columntwo {
+    display: flex;
+    flex-direction: column;
+}
+
+#columnone-2 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#home-page-top-sidebar {
+
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#art-1 {
+    
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+
+#art-2, #art-3 {
+    
+    flex-grow: 1;
+    height: auto;
+    width: 30%;
+    padding: 10px;
+    
+}
+
+#home-page-top h3 {
+    color: #FFFFFF;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    margin: 5px;
+}
+
+#follow-us {
+    border-top: 3px solid #c33;
+    border-bottom: 3px solid #c33;
+    border-left: none;
+    border-right: none;
+    margin: 19px 0 0 0;
+    padding: 8px 0 3px 0;
+}
+
+#follow-us-p {
+    color: #c33;
+    font-family: "futura-pt", sans-serif;
+    margin: 10px 0;
+    padding-right: 7px;
+    text-transform: uppercase;
+}
+
+#home-page-bottom {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#rowone, #rowtwo {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.home-page-bot-art {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+#page-footer {
+    width: 100%;
+    height: auto;
+    border-top: 7px solid #c33;
+    margin-top: 100px;
+}
+
+#footer-wrapper {
+    padding: 20px 10px 0;
+    margin: 0 166px;
+}
+
+#footer-nav {
+    display: flex;
+    width: 100%;
+    height: 275px;
+    
+}
+
+li p {
+    font-family: "futura-pt", sans-serif;
+    font-size: .75rem;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+#footer-col-1 ul {
+    columns: 2;
+}
+
+h2 {
+    font-size: .8125rem;
+    font-family: "futura-pt" , sans-serif;
+    line-height: 13px;
+    font-weight: 700;
+}
+
+#footer-nav div {
+    flex-grow: 1;
+}
+
+
